@@ -7,6 +7,7 @@ public class PlayerMove : MonoBehaviour
 {
     private float moveSpeed = 5f;
     private Rigidbody2D rb;
+    public bool isGround;
 
     void Start()
     {
@@ -41,7 +42,12 @@ public class PlayerMove : MonoBehaviour
     //땅인거 먼저 체크하고 할거야 아니면 요기 함수 안에서 체크할고야?
     public void Homi()
     {
-        
+        //애니메이션 실행 
+        if(isGround == true)
+        {
+            //사운드 실행
+
+        }
     }
 
     public void Water()
