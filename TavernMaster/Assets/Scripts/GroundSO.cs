@@ -4,6 +4,6 @@ using UnityEngine;
 
 public class GroundSO : ScriptableObject
 {
-    public string name;
+    public string itemName;
     public Sprite groundSprite;
 }
